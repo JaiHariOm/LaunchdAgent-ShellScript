@@ -9,7 +9,7 @@ if [ ! -d ${log_dir} ]; then
 fi
 
 brew doctor >> ${log_name} 2>&1
-if [ $# -ne 2 ]; then
+if [ $? -eq 1 ]; then
     brew file update >> ${log_name} 2>&1
     brew file cask_upgrade -C >> ${log_name} 2>&1
 fi
