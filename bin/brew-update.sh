@@ -13,3 +13,10 @@ if [ $? -eq 0 ]; then
     brew file update >> ${log_name} 2>&1
     brew file cask_upgrade -C >> ${log_name} 2>&1
 fi
+
+#[brew-update.sh]
+
+#Copyright (c) [year] [fullname]
+
+#This software is released under the MIT License.
+#http://opensource.org/licenses/mit-license.php
