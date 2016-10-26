@@ -28,3 +28,8 @@
     
     **「この学びの参考にさせていただいた皆様に感謝いたします。どうもありがとうございます」**
 
+## LICENSE
+
+This software is released under the MIT License, see LICENSE.txt.
+
+このソフトウェアは、MITライセンスのもとで公開されています、LICENSE.txtを参照されたし。
